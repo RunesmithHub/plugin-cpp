@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "runesmith.cpp",
+  "name": "C Family and Shaders",
+  "version": "0.1.0",
+  "summary": "Highlighting, comments and brackets for C, C++, CUDA C++, Objective-C, Objective-C++, x86 Assembly, HLSL and ShaderLab.",
+  "authors": [
+    "Dylan de Beer"
+  ],
+  "license": "Apache-2.0",
+  "repository": "https://github.com/RunesmithHub/plugin-cpp",
+  "runesmithApi": "^0.2.0",
+  "projects": {
+    "contracts": "src/Runesmith.CFamily.Contracts/Runesmith.CFamily.Contracts.csproj",
+    "implementation": "src/Runesmith.CFamily/Runesmith.CFamily.csproj"
+  },
+  "icon": "icon.png",
+  "categories": [
+    "Languages"
+  ],
+  "keywords": [
+    "c",
+    "h",
+    "cpp",
+    "hpp",
+    "cc",
+    "m",
+    "mm",
+    "asm",
+    "hlsl",
+    "shader"
+  ]
+}
